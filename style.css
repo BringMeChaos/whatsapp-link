@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.top {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* put here a gradiant of gteed and cyan */
+    /* blue to cyan */
+    background-image: linear-gradient(to right, rgb(107, 188, 241), cyan);
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 20px;    
+}
+
+.cover {
+    padding: 40px;
+    width: 100%;
+    height: 30vh;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items:flex-start; */
+    background-color: beige;
+    font-weight: bold;
+}
+
+.cover p {
+    padding-top: 20px;
+    color: rgb(131, 131, 131);
+    font-weight: normal;
+}
+
+.link {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link button {
+    background-color: aquamarine;
+}
